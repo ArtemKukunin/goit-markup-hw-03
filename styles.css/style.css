@@ -79,9 +79,32 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-txt-cl-title);
 }
-
+.header-container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
 
 /* header-nav */
+.header-nav{
+    margin-right: auto;   
+}
+.list-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+
+   
+}
+.link-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.logo{
+    margin-right: 93px;
+}
+
 .logo-color {
 color: var(--accent-bg-cl);
  }
@@ -113,6 +136,12 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: var(--main-txt);
 
+}
+.contacts-list{
+    
+   
+    display: flex;
+    gap: 50px;  
 }
 
 
