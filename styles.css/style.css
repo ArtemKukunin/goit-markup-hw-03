@@ -87,6 +87,9 @@ color: var(--main-txt-cl-title);
     height: 80px;
     margin-right: 0;
     border: 1px solid #ECECEC;
+    border-top:none;
+    border-right: none;
+    border-left: none;
 }
 
 /* header-nav */
