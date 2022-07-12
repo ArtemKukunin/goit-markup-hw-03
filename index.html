@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,7 +68,8 @@
 <section class="container section-features">
   
   
-    <ul class="list-features list">
+    <div class="box-list-features">
+      <ul class="list-features list">
       <li>
         <h3 class="section-title">
           Внимание к деталям
@@ -102,9 +103,12 @@
       </li>
       
     </ul>
+    </div>
+ 
+    <h2 class="title  ">Чем мы занимаемся</h2>
   
-    <h2 class="title">Чем мы занимаемся</h2>
-  
+    
+  <div class="box-img-occupation">
     <ul class="list-occupation list">
       <li>
       <img src="images/img1.jpg" alt="программист за своим рабочим столом" />
@@ -116,49 +120,48 @@
         <img src="images/img3.jpg" alt="работа через планшет и пк" />
       </li>
     </ul>
+  </div>
+    
 
 </section>
 
 
+<section class="container section-team"> 
+  <div class="container-team">
 
+  </div>
+  <h2 class="title title-team">Наша команда</h2>
 
-
-
-
-<section class="container section-teams"> 
-  <h2 class="title">Наша команда</h2>
-
-    <ul class="list-teams list">
-      <li>
+    <ul class="list-team list">
+      <li class="team-item">
         
-        <img class="teams-img" src="images/img4.jpg" alt="Игорь Демьяненко Product Designer" />
-        <h3 class="section-title-teams">Игорь Демьяненко </h3>
-       <p class="text-teams">Product Designer </p> 
+        <img class="team-img" src="images/img4.jpg" alt="Игорь Демьяненко Product Designer" />
+        <h3 class="section-title-team">Игорь Демьяненко </h3>
+       <p class="text-team">Product Designer </p> 
       
       </li>
-      <li>
+      <li class="team-item">
         
-          <img class="teams-img"  src="images/img5.jpg" alt="Ольга Репина Frontend Developer" />
-         <h3 class="section-title-teams">Ольга Репина </h3>
-          <p class="text-teams">Frontend Developer</p>  
+          <img class="team-img"  src="images/img5.jpg" alt="Ольга Репина Frontend Developer" />
+         <h3 class="section-title-team">Ольга Репина </h3>
+          <p class="text-team">Frontend Developer</p>  
         
       </li>
     
-    <li>
+    <li class="team-item">
       
-        <img class="teams-img"  src="images/img6.jpg" alt="Николай Тарасов Marketing" />
-        <h3 class="section-title-teams">Николай Тарасов </h3>
-         <p class="text-teams">Marketing</p> 
+        <img class="team-img"  src="images/img6.jpg" alt="Николай Тарасов Marketing" />
+        <h3 class="section-title-team">Николай Тарасов </h3>
+         <p class="text-team">Marketing</p> 
       
     
     </li>
-    <li>
+    <li class="team-item">
     
-        <img class="teams-img"  src="images/img7.jpg" alt="Михаил Ермаков UI Designer" />
-        <h3 class="section-title-teams">Михаил Ермаков</h3> 
-        <p class="text-teams">UI Designer</p> 
+        <img class="team-img"  src="images/img7.jpg" alt="Михаил Ермаков UI Designer" />
+        <h3 class="section-title-team">Михаил Ермаков</h3> 
+        <p class="text-team">UI Designer</p> 
     
-
     </li>
 
   </ul>
@@ -169,12 +172,20 @@
     <!--Підвал сайту-->
     <footer class="footer">
       <div class="container footer-item">
-        <a class="logo-footer link" href=""><span class="logo-color">Web</span>Studio</a>
+        
+        <div class="logo-item">
+          <a class="logo-footer link" href=""><span class="logo-color">Web</span>Studio</a>
+        </div>
+        
+
+
         <address>
-  
-          <a class="link" href=""><span class="address">Г.Киев пр. Леси Украинки 26</span></a>
-          <a class="contacts-footer link" href="tel:+38999999999">+3899999999</a>
-          <a class="contacts-footer link" href="mailto:abc@gmail.com">abc@gmail.com</a>
+  <div class="address-item">
+    <a class="link" href=""><span class="address">Г.Киев пр. Леси Украинки 26</span></a>
+    <a class="contacts-footer link" href="tel:+38999999999">+3899999999</a>
+    <a class="contacts-footer link" href="mailto:abc@gmail.com">abc@gmail.com</a>
+  </div>
+          
   
         </address>
       </div>
