@@ -448,6 +448,8 @@ background-color: var(--dark-bg-cl-fet);
 .button-item{
     display: flex;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
     flex-wrap: wrap;
     gap: 50px; 
 
@@ -545,6 +547,7 @@ text-decoration: none;
     display: flex;
     gap:30px;
     flex-wrap: wrap;
+    justify-content: center;
     margin-right: auto; 
     margin-left: auto;
     padding-left: 0;
