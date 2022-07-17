@@ -613,12 +613,17 @@ text-decoration: none;
     gap:30px;
     flex-wrap: wrap;
     /* align-items:center; */
-    margin-right: auto; 
-    margin-left: auto;
-    padding-left: 0;}
+   margin: 0 auto;
+    padding-left: 0;
+    padding-bottom: 0px;
+
+}
 .list-portfolio:nth-child(4n + 1)
 {
     padding-bottom: 30px;
+} 
+.list-portfolio:last-child{
+    padding-bottom: 0px;
 }
 .card-portfolio{
     display: inline-block;   
