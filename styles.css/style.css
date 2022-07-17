@@ -79,6 +79,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-txt-cl-title);
+
 }
 .header-container{
     align-content: space-between;
@@ -86,6 +87,10 @@ color: var(--main-txt-cl-title);
     align-items: center;
     height: 80px;
     margin-right: 0;
+    
+}
+.header-line{
+    width: 1600px;
     border: 1px solid #ECECEC;
     border-top:none;
     border-right: none;
