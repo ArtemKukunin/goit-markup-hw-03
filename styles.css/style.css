@@ -87,15 +87,10 @@ color: var(--main-txt-cl-title);
     align-items: center;
     height: 80px;
     margin-right: 0;
+    border-bottom: 1px solid #ECECEC;
     
 }
-.header-line{
-    width: 1600px;
-    border: 1px solid #ECECEC;
-    border-top:none;
-    border-right: none;
-    border-left: none;
-}
+
 
 /* header-nav */
 .header-nav{
