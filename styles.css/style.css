@@ -37,6 +37,7 @@ flex-basis: calc(100%-var(--indent)
 --dark-bg-cl-tems:#F5F4FA;
 --dark-bg-cl-footer:#2F303A;
 --accent-bg-cl:#2196F3;
+--white-bg-cl: #F5F5F5;
 /* others */
 --indent: 30px;
 --items: 3; 
@@ -231,20 +232,18 @@ color: var(--accent-bg-cl);
     padding-left: 0;
 }
 
-.main{
-    margin: 0;
-}
+
 /* hero */
 .hero{
     
- 
+    
     height: 600px;
     
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
-
+    
     background-color: var(--dark-bg-cl-hero);
     font-weight: 900;
     font-size: 44px;
@@ -254,6 +253,9 @@ color: var(--accent-bg-cl);
     text-transform: uppercase;
     color: var(--main-txt);
 
+}
+.box-title-hero{
+font-weight: 700; 
 }
 
 .title-hero{
@@ -270,7 +272,7 @@ color: var(--accent-bg-cl);
 }
 
 .button-hero{
-    /* font-weight: 700; */
+    font-weight: 700; 
     font-size: 16px;
     line-height: 1.88;
     display:inline-block;
@@ -278,7 +280,7 @@ color: var(--accent-bg-cl);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
+    padding: 10px 32px;
     letter-spacing: 0.06em;
 
 
@@ -319,29 +321,31 @@ color: var(--main-txt-cl-title);
 
 
 .section-features{
-    /* align-content: flex-start; */
-    
-    justify-content:space-between;
-    height: 800px;
+   
+    height: 98px;
     align-items: center;
     justify-content:start;
     margin: 0;
-    background-color: var(--dark-bg-cl-fet);
+    background-color: var(--white-bg-cl);
+    padding-top: 94px;
+    padding-right: 0px;
+    padding-bottom: 94px;
+    padding-left: 0px; 
 }
+
 .list-features{
     display: flex;
     gap: 30px;
-    padding-top: 94px;
-    padding-right: 0px;
-    padding-bottom: 0px;
     padding-left: 0px;
  
     margin: 0;
     margin-top: 0;
     
+    
 }
 .list-features-item{
     width: 270px;
+   
 }
 
 /* .section-title{
@@ -356,20 +360,37 @@ color: var(--main-txt-cl-title);
     
 }
 .box-img-occupation{
-   margin: 0;
-   padding-top: 50px;
-   padding-bottom: 94px;
+   margin-top: 50px;
+  
 } 
+/* Works */
 
+.works{
+    height: 386px;
+
+    justify-content:start;
+    align-items:center;
+    background-color:var(--white-bg-cl);
+
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.title-works{
+   margin-top: 94px;
+    padding: 0;
+}
 /* team */
 .section-team{
-    /* display: flex; */
-    align-items: center;
+   
     justify-content:start;
     align-items:center;
     height:648px;
     padding-bottom: 94px;
-    
+    background-color:var(--dark-bg-cl-tems);
 }
 .list-team{
     /* justify-content:space-between; */
@@ -406,7 +427,8 @@ color: var(--main-txt-cl-title);
 
 
 .section-title-team{
-    margin: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
 
     font-weight: 500; 
     font-size: 16px;
@@ -481,23 +503,22 @@ background-color: var(--dark-bg-cl-fet);
 
 
 
-/* проблеми- потрібно поправити */
+
 .button-item{
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+   
     flex-wrap: wrap;
-    gap: 50px; 
+   
 
 }
 .button{
+    padding:6px 22px;
     font-style: normal;     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em; 
+
     color: var(--main-txt-cl-title);
     background-color:var(--dark-bg-cl-tems);
 }
@@ -550,7 +571,8 @@ text-decoration: none;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 4px;
 
     color: var(--main-txt-cl-title);
 }
@@ -566,15 +588,15 @@ text-decoration: none;
 }
 .list-button
 {
-    display: inline-flex;
-   
+    display:flex;
     gap:8px;
-    flex-wrap:wrap;
+   
     justify-content: center;
     align-items:center;
     margin-top: 0;
     margin-bottom: 50px;
-    padding:6px 22px;
+    padding: 0px;
+    
    
     
     
@@ -597,7 +619,7 @@ text-decoration: none;
 .portfolio-info{
     padding-top: 20px;
     padding-right: 24px;
-    padding-bottom: 4px;
+    padding-bottom: 20px;
     padding-left: 24px;
     margin: 0;
 
