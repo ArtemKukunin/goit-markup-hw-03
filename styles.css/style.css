@@ -270,27 +270,30 @@ font-weight: 700;
     color: var(--main-txt);
     margin: 0 auto;
 }
-
-.button-hero{
-    font-weight: 700; 
-    font-size: 16px;
-    line-height: 1.88;
-    display:inline-block;
-    align-items: center;
-    text-align: center;
+ .button-hero{
+    
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 32px;
+    min-width: 200px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+        
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
-
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: var(--accent-bg-cl);
     color: var(--main-txt);
-    cursor: pointer;
-    text-decoration: none;
-}
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+
 .btn-hero{
     margin-left: auto;
     margin-right: auto;
@@ -596,7 +599,11 @@ text-decoration: none;
     margin-top: 0;
     margin-bottom: 50px;
     padding: 0px;
-    
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+   
    
     
     
