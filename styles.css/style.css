@@ -237,7 +237,7 @@ color: var(--accent-bg-cl);
 .hero{
     
     
-    height: 600px;
+   
     
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +322,7 @@ color: var(--main-txt-cl-title);
 
 .section-features{
    
-    height: 98px;
+    
     align-items: center;
     justify-content:start;
     margin: 0;
@@ -366,7 +366,7 @@ color: var(--main-txt-cl-title);
 /* Works */
 
 .works{
-    height: 386px;
+   
 
     justify-content:start;
     align-items:center;
@@ -388,7 +388,7 @@ color: var(--main-txt-cl-title);
    
     justify-content:start;
     align-items:center;
-    height:648px;
+   
     padding-bottom: 94px;
     background-color:var(--dark-bg-cl-tems);
 }
