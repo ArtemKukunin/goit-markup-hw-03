@@ -326,7 +326,7 @@ color: var(--main-txt-cl-title);
     align-items: center;
     justify-content:start;
     margin: 0;
-    background-color: var(--white-bg-cl);
+   
     padding-top: 94px;
     padding-right: 0px;
     padding-bottom: 94px;
@@ -370,7 +370,7 @@ color: var(--main-txt-cl-title);
 
     justify-content:start;
     align-items:center;
-    background-color:var(--white-bg-cl);
+   
 
     margin: 0 auto;
     padding-top: 0px;
